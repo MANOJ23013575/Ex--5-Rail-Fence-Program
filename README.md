@@ -24,7 +24,7 @@ Testing algorithm with different key values.
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM:
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -132,6 +132,6 @@ int main() {
 }
 ```
 ## OUTPUT:
-![alt text]('5.png)
+![alt text](<Screenshot 2024-10-21 112134.png>)
 ## RESULT:
 The program is executed successfully
